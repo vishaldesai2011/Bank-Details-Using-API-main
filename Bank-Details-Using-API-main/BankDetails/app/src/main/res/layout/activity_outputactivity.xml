@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".outputactivity">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView2"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="49dp"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:fontFamily="sans-serif-light"-->
+    <!--        android:gravity="center|center_horizontal"-->
+    <!--        android:text="Bank Details"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="25dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/alef_bold"
+            android:gravity="center"
+            android:text="Bank Details"
+            android:textColor="#1A374D"
+            android:textSize="20dp" />
+
+
+    </TableRow>
+    <TableRow android:background="#6998AB" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BANK"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IFSC"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/ifsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="#6998AB" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BRANCH"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MICR"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/micr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="#6998AB   " android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONTACT"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CITY"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="#6998AB   " android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DISTRICT"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/district"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ISO3166"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/iso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="#6998AB   " android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="STATE"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/state1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NEFT"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/neft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="#6998AB   " android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RTGS"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/rtgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="@color/white" android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BANKCODE"
+            android:textColor="#1A374D" />
+
+        <TextView
+            android:id="@+id/bankcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#1A374D" />
+
+    </TableRow>
+    <TableRow android:background="#6998AB" android:padding="10dp">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="#1A374D" />
+    </TableRow>
+
+</TableLayout>
+</ScrollView>
